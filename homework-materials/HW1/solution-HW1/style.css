@@ -8,3 +8,12 @@ header {
   border-left: 0px;
   border-right: 0px;
 }
+
+img {
+  border: 2px solid black;
+}
+
+#logo-image {
+  border: 0px;
+}
+
