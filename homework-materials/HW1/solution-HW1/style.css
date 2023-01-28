@@ -17,3 +17,10 @@ img {
   border: 0px;
 }
 
+.image-caption {
+  font-size: small;
+}
+
+#cart-button {
+  border: 1px solid black;
+}
