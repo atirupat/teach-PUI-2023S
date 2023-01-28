@@ -28,16 +28,56 @@ img {
 /* Link Style */
 a:hover {
   background-color: yellow;
-  a>p {
-    background-color: yellow;
-  }
 }
 
 #logo-link {
   background-color: white;
 }
 
-p {
-  background-color: yellow;
+/* Shopping Cart Flex Box */
+.shopping-cart-main-content {
+  display:flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  width: 600px;
+  height: auto;
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: brown;
 }
 
+.shopping-cart-items {
+  border: 0px solid black;
+  border-width: 0px 0px 3px 0px;
+}
+#shopping-cart-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Original Cinnamon Box */
+.cart-original-cinnamon {
+  background-color: blue;
+
+  width: 50%;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cart-original-cinnamon-image {
+  width: 33.3%;
+  
+  margin: auto 33.3%;
+}
+
+.cart-original-text {
+  text-align: center;
+}
+
+/* Double-Chocolate Box */
