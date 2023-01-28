@@ -24,3 +24,20 @@ img {
 #cart-button {
   border: 1px solid black;
 }
+
+/* Link Style */
+a:hover {
+  background-color: yellow;
+  a>p {
+    background-color: yellow;
+  }
+}
+
+#logo-link {
+  background-color: white;
+}
+
+p {
+  background-color: yellow;
+}
+

@@ -20,7 +20,7 @@
     
     <!-- Navigation -->
     <nav>
-        <a href="./product-detail.html">
+        <a href="./gallery.html">
             <h5>PRODUCTS</h5>
         </a>
         <a href="./shopping-cart.html">
@@ -28,8 +28,60 @@
         </a>
     </nav>
 
+    <br/>
+
     <main>
-        <p>O shit no way</p>
+        <div>
+            <h4>Original cinnamon roll</h4>
+        </div>
+
+        <img src="/homework-materials/HW1/products/original-cinnamon-roll.jpg"
+            width="400"
+            alt="Cinnamon roll on plate next to cinnamon stick"/>
+
+        <!-- Image Caption -->
+        <p class="image-caption">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+
+        <!-- Glazing Dropdown Menu -->
+        <div>
+            <label for="glazing">
+                <p class="image-caption">Glazing:</p>
+            </label>
+
+            <!-- Glazing Menu Options -->
+            <select name="glazing" id="glazing">
+                <option value="keep original">Keep original</option>
+                <option value="sugar milk">Sugar milk</option>
+                <option value="vanilla milk">Vanilla milk</option>
+                <option value="double chocolate">Double chocolate</option>
+            </select>
+        </div>
+
+        <!-- Pack Size Dropdown Menu -->
+        <div>
+            <label for="pack-size">
+                <p class="image-caption">Pack size:</p>
+            </label>
+            
+            <!-- Pack Size Menu Options -->
+            <select name="pack-size" id="pack-size">
+                <option value="one">1</option>
+                <option value="three">3</option>
+                <option value="six">6</option>
+                <option value="dozen">12</option>
+            </select>
+        </div>
+
+        <!-- Price and "Add to Cart" Button -->
+        <div>
+            <p>$2.49</p>
+
+            <!-- Button -->
+            <a href="./shopping-cart.html" id="cart-button">
+                <p>Add to Cart</p>
+            </a>
+        </div>
+
     </main>
 
 </body>
