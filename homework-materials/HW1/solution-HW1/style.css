@@ -1,9 +1,11 @@
 /* Text Styles */
 body {
-    font-family: sans-serif;
-  }
+  font-family: sans-serif;
+}
 
 header {
+  background-color: white;
+
   border: 3px solid black;
   border-top: 0px;
   border-left: 0px;
@@ -27,8 +29,19 @@ img {
 }
 
 #logo-image {
+  box-sizing: border-box;
+
   border: 0px;
+  background-color: white;
+
+  width: 400px;
+  height: auto;
 }
+
+#logo-image:hover {
+  background-color: white;
+}
+
 
 /* Link Style */
 a:link {
@@ -59,12 +72,20 @@ a:hover {
   flex-direction: column;
 
   text-align: center;
+
+  padding-bottom: 50px;
 }
 
 .navigation-text {
   font-size: medium;
   font-weight: lighter;
+
   margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: fit-content;
+  height: fit-content;
 }
 
 /* Shopping Cart Flex Box: */
@@ -87,9 +108,13 @@ a:hover {
   border: 0px solid black;
   border-width: 0px 0px 3px 0px;
 }
+
 #shopping-cart-title {
   margin-left: auto;
   margin-right: auto;
+
+  font-size: larger;
+  font-weight: lighter;
 }
 
 /* Original Cinnamon Box */
