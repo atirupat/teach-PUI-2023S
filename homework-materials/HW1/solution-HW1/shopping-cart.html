@@ -19,12 +19,15 @@
     </header>
     
     <!-- Navigation -->
-    <nav>
-        <a href="./gallery.html">
-            <h5>PRODUCTS</h5>
+    <nav class="navigation-content">
+        <a href="./gallery.html"
+            class="navigation-text">
+            PRODUCTS
         </a>
-        <a href="./shopping-cart.html">
-            <h5>CART</h5>
+        
+        <a href="./shopping-cart.html"
+            class="navigation-text" >
+            CART
         </a>
     </nav>
 
@@ -54,24 +57,26 @@
             <div class="cart-double-chocolate">
                 <img src="/homework-materials/HW1/products/double-chocolate-cinnamon-roll.jpg"
                     width="100"
-                    alt="Close-up of double-chocolate cinnamon roll"/>
-                <p>Remove</p>
-                <p>Double Chocolate Cinnamon Roll</p>
-                <p>Glazing: Sugar milk</p>
-                <p>Pack Size: 6</p>
-                <br/>
-                <h5>$27.45</h5>
-            </div>
-        </div>
+                    alt="Close-up of double-chocolate cinnamon roll"
+                    id="cart-chocolate-image"/>
 
-        <!-- Division line -->
-        <br/>
+                <div class="cart-chocolate-text">
+                    <p>Remove</p>
+                    <p>Double Chocolate Cinnamon Roll</p>
+                    <p>Glazing: Sugar milk</p>
+                    <p>Pack Size: 6</p>
+                    <h5>$27.45</h5>
+                </div>
+            </div>
+
+        </div>
 
         <!-- Total and checkout -->
-        <div>
+        <div class="cart-checkout">
             <p>Total: $29.74</p>
-            <h4 class="cart-button">Checkout</h4>
+            <h4 id="cart-button">Checkout</h4>
         </div>
+
     </main>
 
 </body>

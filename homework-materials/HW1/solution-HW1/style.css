@@ -1,3 +1,4 @@
+/* Text Styles */
 body {
     font-family: sans-serif;
   }
@@ -9,6 +10,18 @@ header {
   border-right: 0px;
 }
 
+.image-caption {
+  font-size: small;
+}
+
+/* Page Titles */
+h4 {
+  font-weight: normal;
+  font-size: larger;
+  
+  color: black;
+}
+/* Image Styles */
 img {
   border: 2px solid black;
 }
@@ -17,24 +30,44 @@ img {
   border: 0px;
 }
 
-.image-caption {
-  font-size: small;
-}
-
-#cart-button {
-  border: 1px solid black;
-}
-
 /* Link Style */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 a:hover {
   background-color: yellow;
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
 }
+
 
 #logo-link {
   background-color: white;
 }
 
-/* Shopping Cart Flex Box */
+/* Navigation */
+.navigation-content {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.navigation-text {
+  font-size: medium;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+/* Shopping Cart Flex Box: */
 .shopping-cart-main-content {
   display:flex;
   flex-direction: column;
@@ -47,7 +80,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 
-  background-color: brown;
+  background-color: white;
 }
 
 .shopping-cart-items {
@@ -61,7 +94,7 @@ a:hover {
 
 /* Original Cinnamon Box */
 .cart-original-cinnamon {
-  background-color: blue;
+  background-color: white;
 
   width: 50%;
   height: auto;
@@ -81,3 +114,39 @@ a:hover {
 }
 
 /* Double-Chocolate Box */
+.cart-double-chocolate {
+  background-color: white;
+
+  width: 50%;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cart-chocolate-image {
+  width: 33.3%;
+  
+  margin: auto 33.3%;
+}
+
+.cart-chocolate-text {
+  text-align: center;
+}
+
+/* Total and Checkout */
+.cart-checkout {
+  text-align: center;
+  background-color:white;
+}
+
+#cart-button {
+  width: 20%;
+  
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  margin: auto 40%;
+
+  border: 2px solid black;
+}
