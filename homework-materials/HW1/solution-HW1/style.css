@@ -19,10 +19,13 @@ header {
 /* Page Titles */
 h4 {
   font-weight: normal;
-  font-size: larger;
+  font-size: x-large;
   
   color: black;
+
+  text-align: center;
 }
+
 /* Image Styles */
 img {
   border: 2px solid black;
@@ -66,6 +69,11 @@ a:hover {
   background-color: white;
 }
 
+/* Common Page Styles */
+.section-title {
+  margin-bottom: 10px;
+}
+
 /* Navigation */
 .navigation-content {
   display: flex;
@@ -73,7 +81,7 @@ a:hover {
 
   text-align: center;
 
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .navigation-text {
@@ -86,6 +94,42 @@ a:hover {
   
   width: fit-content;
   height: fit-content;
+}
+
+/* Gallery Flex Box */
+.gallery-content {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  width: 600px;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: white;
+}
+
+.orig-cinn-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-description-txt {
+  font-size: normal;
+  text-decoration: underline;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.gallery-price-txt {
+  font-size: normal;
+
+  margin-top: 5px;
+  margin-bottom: 40px;
 }
 
 /* Shopping Cart Flex Box: */
@@ -109,14 +153,6 @@ a:hover {
   border-width: 0px 0px 3px 0px;
 }
 
-#shopping-cart-title {
-  margin-left: auto;
-  margin-right: auto;
-
-  font-size: larger;
-  font-weight: lighter;
-}
-
 /* Original Cinnamon Box */
 .cart-original-cinnamon {
   background-color: white;
@@ -126,6 +162,7 @@ a:hover {
 
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 #cart-original-cinnamon-image {
@@ -147,6 +184,7 @@ a:hover {
 
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 #cart-chocolate-image {
@@ -175,3 +213,26 @@ a:hover {
 
   border: 2px solid black;
 }
+
+.remove-txt {
+  font-size: xx-small;
+  font-weight: bold;
+
+  color: black;
+
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.price-txt {
+  font-size: large;
+}
+
+.description-txt {
+  font-size: small;
+  font-weight: normal;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
