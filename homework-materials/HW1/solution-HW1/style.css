@@ -112,9 +112,13 @@ a:hover {
   background-color: white;
 }
 
-.orig-cinn-section {
+.gallery-section {
+  width: 200px;
+
   margin-left: auto;
   margin-right: auto;
+
+  padding: 2px;
 }
 
 .gallery-description-txt {
@@ -129,7 +133,16 @@ a:hover {
   font-size: normal;
 
   margin-top: 5px;
-  margin-bottom: 40px;
+  margin-bottom: auto;
+}
+
+.gallery-img {
+  width:200px;
+
+  /* margin-left: 2px; */
+  margin-right: 2px;
+
+  justify-content: center;
 }
 
 /* Shopping Cart Flex Box: */
