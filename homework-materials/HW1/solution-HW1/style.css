@@ -139,10 +139,23 @@ a:hover {
 .gallery-img {
   width:200px;
 
-  /* margin-left: 2px; */
-  margin-right: 2px;
+  margin: auto;
 
   justify-content: center;
+}
+
+/* Product Detail Flex Box */
+.product-detail-section {
+  width= 600px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detail-img {
+  width: 400px;
+
+  align-content: center;
 }
 
 /* Shopping Cart Flex Box: */
@@ -248,4 +261,6 @@ a:hover {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+
 
