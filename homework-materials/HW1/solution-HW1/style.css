@@ -122,11 +122,13 @@ a:hover {
 }
 
 .gallery-description-txt {
-  font-size: normal;
+  font-size: 18px;
   text-decoration: underline;
 
   margin-top: auto;
   margin-bottom: auto;
+
+  width: 100%;
 }
 
 .gallery-price-txt {
@@ -146,7 +148,11 @@ a:hover {
 
 /* Product Detail Flex Box */
 .product-detail-section {
-  width= 600px;
+  display: flex;
+  flex-direction: column;
+
+  width: auto;
+  height: auto;
 
   margin-left: auto;
   margin-right: auto;
@@ -155,8 +161,72 @@ a:hover {
 .detail-img {
   width: 400px;
 
-  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#glaze-image-caption {
+  font-size: normal;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 200px;
+}
+
+.dropdown-menu {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 200px;
+}
+
+.dropdown-caption {
+  font-size: normal;
+}
+
+.dropdown-style {
+  width: 200px;
+
+  font-size: medium;
+}
+
+.add-cart {
+  display: flex;
+
+  width: 200px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+#detail-price {
+  margin-left: auto;
+  width: 50%;
+
+  font-weight: bold;
+
+  text-align: center;
+}
+
+#detail-cart-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  width: 50%;
+  height: min-content;
+
+  border: 1px solid black;
+  font-size: small;
+}
+
 
 /* Shopping Cart Flex Box: */
 .shopping-cart-main-content {
