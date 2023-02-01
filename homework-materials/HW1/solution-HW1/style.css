@@ -37,7 +37,7 @@ img {
   border: 0px;
   background-color: white;
 
-  width: 400px;
+  width: 250px;
   height: auto;
 }
 
@@ -71,7 +71,7 @@ a:hover {
 
 /* Common Page Styles */
 .section-title {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 /* Navigation */
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .gallery-section {
-  width: 200px;
+  width: 204px;
 
   margin-left: auto;
   margin-right: auto;
@@ -132,18 +132,19 @@ a:hover {
 }
 
 .gallery-price-txt {
-  font-size: normal;
+  font-size: 18px;
 
   margin-top: 5px;
   margin-bottom: auto;
 }
 
 .gallery-img {
-  width:200px;
+  width: 200px;
 
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 
-  justify-content: center;
+  align-content: center;
 }
 
 /* Product Detail Flex Box */
@@ -198,7 +199,7 @@ a:hover {
 
   margin-left: auto;
   margin-right: auto;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 #detail-price {
@@ -295,11 +296,14 @@ a:hover {
 
 /* Total and Checkout */
 .cart-checkout {
+  display: flex;
+  flex-direction: column;
+
   text-align: center;
   background-color:white;
 }
 
-#cart-button {
+/* #cart-button {
   width: 20%;
   
   padding-top: 2px;
@@ -308,6 +312,24 @@ a:hover {
   margin: auto 40%;
 
   border: 2px solid black;
+} */
+
+#cart-button {
+  margin: auto;
+
+  text-align: center;
+  align-content: center;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  width: max-content;
+  height: min-content;
+
+  border: 1px solid black;
+  font-size: small;
 }
 
 .remove-txt {
@@ -321,7 +343,7 @@ a:hover {
 }
 
 .price-txt {
-  font-size: large;
+  font-size: medium;
 }
 
 .description-txt {
